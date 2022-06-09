@@ -10408,4 +10408,9 @@ a.text-dark:hover, a.text-dark:focus {
 .Footerend {
     margin-left: 0px;
     color: rgba(255,255,255,1.00);
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
 }
