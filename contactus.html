@@ -26,6 +26,15 @@
         font-size: 2rem;
         font-family: "EuroStyle Normal";
     }   
+    .row {
+      display: flex;
+    }
+
+    /* Create three equal columns that sits next to each other */
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
   </style>
   </head>
   <body>
@@ -49,10 +58,23 @@
   </tbody>
 </table>
 
+</div>
 <!-- HEADER END --->
 
-      </nav>
-  <img src="images/logofacebook.png" class="rounded img-fluid" alt="Placeholder image"> <a href="https://www.instagram.com/decoded.nl/"><img src="images/logoinstagram.png" class="rounded img-fluid" alt="Placeholder image"></a> <a href="https://www.tiktok.com/@decoded.nl"><img src="images/tiktoklogo.png" class="rounded img-fluid" alt="Placeholder image"></a>
+</nav>
+
+    <div class="row">
+  <div class="column">
+    <a href="https://www.facebook.com/decoded.nl/"><img src="images/logofacebook.png" width="256" height="256" class="rounded" alt="Placeholder image"></a>
+  </div>
+  <div class="column">
+    <a href="https://www.instagram.com/decoded.nl/"><img src="images/logoinstagram.png" width="256" height="256" class="rounded" alt="Placeholder image"></a>
+  </div>
+  <div class="column">
+    <a href="https://www.tiktok.com/@decoded.nl"><img src="images/tiktoklogo.png" width="256" height="256" class="rounded" alt="Placeholder image"></a>
+  </div>
+</div>
+
 <div class="dropdown show"> <a class="btn btn-lg dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Send us a shout out! </a>
       <div class="dropdown-menu">
 	      <h6 class="dropdown-header">Email us</h6>
